@@ -192,9 +192,15 @@
     scroll-behavior: smooth;
   }
 }
-
+.custom-navbar {
+  background-color: rgba(255, 255, 255, 0.472); /* พื้นหลังขาวขุ่น 20% */
+  backdrop-filter: blur(90%);               /* เบลอพื้นหลังด้านหลัง navbar */
+  -webkit-backdrop-filter: blur(90%);       /* รองรับ Safari */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* ขีดเส้นล่างเบาๆ */
+}
 body {
   margin: 0;
+  padding-top: 70px; /* ป้องกัน navbar บังเนื้อหา */
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
