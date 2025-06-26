@@ -203,7 +203,7 @@
 }
 .video-header {
     position: relative;
-    width: 100%;
+    width: 100vw; /* ✅ เปลี่ยนจาก 100% เป็น 100vw */
     height: 100vh; /* เต็มความสูงจอ */
     overflow: hidden;
 }
@@ -212,8 +212,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100vw;       /* ✅ แก้จาก min-width */
+    height: 100vh;      /* ✅ แก้จาก min-height */
     object-fit: cover;
     z-index: -1;
 }
