@@ -225,7 +225,7 @@
 
 /* ✅ แสดง submenu เมื่อมี .show */
 .submenu.show {
-  display: block;
+  display: none;
 }
 
 /* 🖥 บน desktop: ใช้ hover */
