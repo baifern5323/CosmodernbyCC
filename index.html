@@ -31,25 +31,68 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">หน้าแรก</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">เกี่ยวกับ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">นวัตกรมม</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">การวิจัย</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">นวัตกรรม</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ผลิตกรรมของเรา</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">ผลิตภัณบำรุงผิว</a></li>
-                                <li><a class="dropdown-item" href="#!">เครื่องสำอางค์</a></li>
-                                <li><a class="dropdown-item" href="index.html">อาหารเสริม</a></li>
-                                <li><a class="dropdown-item" href="#!">น้ำหอม</a></li>
-                                <li><a class="dropdown-item" href="#!">แอลกฮอล์บริสุทธิ์</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ขั้นตอนการผลิต</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">ผลิตภัณบำรุงผิวและเครื่องสำอางค์</a></li>
-                                <li><a class="dropdown-item" href="index.html">อาหารเสริม</a></li>
-                                <li><a class="dropdown-item" href="#!">น้ำหอม</a></li>
-                            </ul>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ผลิตภัณฑ์ของเรา</a>
+                            <ul class="dropdown-menu">
+
+                                <!-- Skincare -->
+                                <li class="dropdown-submenu">
+                                  <a class="dropdown-item submenu-toggle" href="#">Skincare ▸</a>
+                                  <ul class="submenu list-unstyled ms-3">
+                                    <li><a class="dropdown-item" href="#">Cleaner</a></li>
+                                    <li><a class="dropdown-item" href="#">Facial care</a></li>
+                                    <li><a class="dropdown-item" href="#">Body care</a></li>
+                                    <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Hair care</a></li>
+                                    <li><a class="dropdown-item" href="#">Underarm</a></li>
+                                    <li><a class="dropdown-item" href="#">Nail/Hand/Foot</a></li>
+                                    <li><a class="dropdown-item" href="#">Soap</a></li>
+                                  </ul>
+                                </li>
+                            
+                                <!-- Color Cosmetics -->
+                                <li class="dropdown-submenu">
+                                  <a class="dropdown-item submenu-toggle" href="#">Color Cosmetics ▸</a>
+                                  <ul class="submenu list-unstyled ms-3">
+                                    <li><a class="dropdown-item" href="#">Lipstick</a></li>
+                                    <li><a class="dropdown-item" href="#">Foundation / Cushion</a></li>
+                                    <li><a class="dropdown-item" href="#">Primer</a></li>
+                                    <li><a class="dropdown-item" href="#">Blush on</a></li>
+                                    <li><a class="dropdown-item" href="#">Setting Spray</a></li>
+                                  </ul>
+                                </li>
+                            
+                                <!-- Spa -->
+                                <li class="dropdown-submenu">
+                                  <a class="dropdown-item submenu-toggle" href="#">Spa ▸</a>
+                                  <ul class="submenu list-unstyled ms-3">
+                                    <li><a class="dropdown-item" href="#">Perfume</a></li>
+                                    <li><a class="dropdown-item" href="#">Room Spray</a></li>
+                                    <li><a class="dropdown-item" href="#">Reed Diffuser</a></li>
+                                    <li><a class="dropdown-item" href="#">Candles</a></li>
+                                    <li><a class="dropdown-item" href="#">Pillow Mist</a></li>
+                                    <li><a class="dropdown-item" href="#">Aroma Roller</a></li>
+                                  </ul>
+                                </li>
+                            
+                                <!-- Pet Care -->
+                                <li class="dropdown-submenu">
+                                  <a class="dropdown-item submenu-toggle" href="#">Pet Care ▸</a>
+                                  <ul class="submenu list-unstyled ms-3">
+                                    <li><a class="dropdown-item" href="#">Shampoo</a></li>
+                                    <li><a class="dropdown-item" href="#">Mousse Foam</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditioner</a></li>
+                                    <li><a class="dropdown-item" href="#">Odor Remove Spray</a></li>
+                                    <li><a class="dropdown-item" href="#">Ear Cleaner</a></li>
+                                    <li><a class="dropdown-item" href="#">Eye Cleaner</a></li>
+                                    <li><a class="dropdown-item" href="#">Paw Balm</a></li>
+                                  </ul>
+                                </li>
+                            
+                                <!-- Alcohol -->
+                                <li><a class="dropdown-item" href="#">Alcohol 75%</a></li>
+                              </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#!">บทความ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">ติดต่อเรา</a></li>
@@ -84,5 +127,24 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- JavaScript เพื่อเปิด/ปิด submenu -->
+        <script>
+            document.querySelectorAll('.submenu-toggle').forEach(function (el) {
+              el.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+            
+                // ปิด submenu อื่น ๆ ทั้งหมด
+                document.querySelectorAll('.submenu').forEach(function (submenu) {
+                  if (submenu !== el.nextElementSibling) {
+                    submenu.classList.remove('show');
+                  }
+                });
+            
+                // toggle ตัวที่คลิก
+                el.nextElementSibling.classList.toggle('show');
+              });
+            });
+            </script>
     </body>
 </html>

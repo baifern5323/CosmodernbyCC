@@ -215,6 +215,16 @@
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+/* Custom CSS สำหรับ Dropdown ซ้อน -->*/
+/* ซ่อนเมนูย่อยเริ่มต้น */
+.dropdown-submenu .submenu {
+  display: none;
+  padding-left: 1rem;
+}
+
+.dropdown-submenu .submenu.show {
+  display: block;
+}
 body {
   margin: 0;
   padding-top: 85px; /* ป้องกัน navbar บังเนื้อหา */
