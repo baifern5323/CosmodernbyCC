@@ -245,6 +245,7 @@
 .submenu-toggle:focus {
   outline: none;
   box-shadow: none;
+  border: none;
 }
 
 body {
