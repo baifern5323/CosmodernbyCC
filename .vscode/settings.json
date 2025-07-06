@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "html": true
+    },
+    "search.exclude": {
+        "html": true
+    },
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true
+}
