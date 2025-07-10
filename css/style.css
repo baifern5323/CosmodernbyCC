@@ -112,3 +112,20 @@ body {
   backdrop-filter: blur(40px); /* เบลอพื้นหลัง */
   box-shadow: none;
 }
+/*icon*/
+.size-icon {
+  font-size: 2.5rem;
+  color: #e1306c;
+  vertical-align: middle; /* จัดให้อยู่กลางแนวกับข้อความ */
+  margin-right: 8px;
+}
+
+.icon-link {
+  font-size: 1.3rem;
+  color: #e1306c;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  text-decoration: underline;
+}
